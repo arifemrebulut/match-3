@@ -13,15 +13,15 @@ namespace Agave
 
         public List<Drop> LastMatchedDrops { get; private set; }
 
-        public void InitializeGrid(Vector2Int dimensions)
+        public void InitializeBoard(Vector2Int dimensions)
         {
             base.CreateBoard(dimensions);
 
             CreateTileBackgrounds();
-            StartCoroutine(PopulateGrid());
+            StartCoroutine(PopulateBoard());
         }
 
-        private IEnumerator PopulateGrid(bool allowMatches = false)
+        private IEnumerator PopulateBoard(bool allowMatches = false)
         {
             for (int y = 0; y < Dimensions.y; y++)
             {
@@ -65,12 +65,12 @@ namespace Agave
                 }
             }
 
-            DOVirtual.DelayedCall(0.4f, ScanGridForMatches);
+            DOVirtual.DelayedCall(0.4f, ScanBoardForMatches);
         }
 
         private void RepopulateEmptyTiles()
         {
-            StartCoroutine(PopulateGrid(true));
+            StartCoroutine(PopulateBoard(true));
         }
 
         public bool IsPartOfMatch(Drop drop)
@@ -102,7 +102,7 @@ namespace Agave
             return true;
         }
 
-        private void ScanGridForMatches()
+        private void ScanBoardForMatches()
         {
             for (int y = 0; y < Dimensions.y; y++)
             {
