@@ -4,8 +4,10 @@ namespace Agave
 {
     public class Drop : MonoBehaviour
     {
+        public bool IsMoving { get; set; }
+        
         private SpriteRenderer _spriteRenderer;
-
+        
         private DropTypeSO _type;
         
         public DropTypeSO Type
