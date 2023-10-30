@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace Agave
@@ -25,10 +24,8 @@ namespace Agave
 
         void InitializeServices()
         {
-            _locator = ServiceLocator.Instance;
-            
-            _locator.Register(objectPool);
-            _locator.Register(board);
+            ServiceLocator.Register(objectPool);
+            ServiceLocator.Register(board);
         }
     }
 }

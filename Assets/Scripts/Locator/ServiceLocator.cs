@@ -8,20 +8,7 @@ namespace Agave
     {
         private static readonly Dictionary<Type, object> Services = new Dictionary<Type, object>();
 
-        public static ServiceLocator Instance { get; private set; }
-
-        private void Awake()
-        {
-            if (Instance != null)
-            {
-                Destroy(this);
-                return;
-            }
-
-            Instance = this;
-        }
-
-        public void Register<TService>(TService service, bool safe = true) where TService : IService, new()
+        public static void Register<TService>(TService service, bool safe = true) where TService : IService, new()
         {
             var serviceType = typeof(TService);
             if (IsRegistered<TService>() && safe)
@@ -32,7 +19,7 @@ namespace Agave
             Services[typeof(TService)] = service;
         }
 
-        public TService Get<TService>() where TService : IService, new()
+        public static TService Get<TService>() where TService : IService, new()
         {
             var serviceType = typeof(TService);
             if (IsRegistered<TService>())
@@ -43,12 +30,12 @@ namespace Agave
             throw new ServiceLocatorException($"{serviceType.Name} hasn't been registered.");
         }
 
-        private bool IsRegistered(Type t)
+        private static bool IsRegistered(Type t)
         {
             return Services.ContainsKey(t);
         }
 
-        private bool IsRegistered<TService>()
+        private static bool IsRegistered<TService>()
         {
             return IsRegistered(typeof(TService));
         }
