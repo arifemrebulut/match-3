@@ -10,11 +10,11 @@ namespace Agave
         public Vector2Int Dimensions { get; private set; }
         public bool Initialized { get; private set; }
 
-        protected void CreateGrid(Vector2Int dimensions)
+        protected void CreateBoard(Vector2Int dimensions)
         {
             if (dimensions.x < 1 || dimensions.y < 1)
             {
-                Debug.LogError("Grid dimensions should be positive numbers.");
+                Debug.LogError("Board dimensions should be positive numbers.");
             }
 
             Dimensions = dimensions;
@@ -33,7 +33,7 @@ namespace Agave
         {
             if (!Initialized)
             {
-                Debug.LogError("Grid has not been initialized.");
+                Debug.LogError("Board has not been initialized.");
                 return false;
             }
 
@@ -44,7 +44,7 @@ namespace Agave
         {
             if (!CheckBounds(x, y))
             {
-                Debug.LogError($"({x}, {y}) this position is not in bounds of the grid.");
+                Debug.LogError($"({x}, {y}) this position is not in bounds of the board.");
                 return false;
             }
 
@@ -55,7 +55,7 @@ namespace Agave
         {
             if (!CheckBounds(x, y))
             {
-                Debug.LogError($"({x}, {y}) this position is not in bounds of the grid.");
+                Debug.LogError($"({x}, {y}) this position is not in bounds of the board.");
                 return false;
             }
 
@@ -72,7 +72,7 @@ namespace Agave
         {
             if (!CheckBounds(x, y))
             {
-                Debug.LogError($"({x}, {y}) this position is not in bounds of the grid.");
+                Debug.LogError($"({x}, {y}) this position is not in bounds of the board.");
                 return default;
             }
 
@@ -83,7 +83,7 @@ namespace Agave
         {
             if (!CheckBounds(x, y))
             {
-                Debug.LogError($"({x}, {y}) this position is not in bounds of the grid.");
+                Debug.LogError($"({x}, {y}) this position is not in bounds of the board.");
                 return default;
             }
 
@@ -96,13 +96,13 @@ namespace Agave
         {
             if (!CheckBounds(x1, y1))
             {
-                Debug.LogError($"({x1}, {y1}) this position is not in bounds of the grid.");
+                Debug.LogError($"({x1}, {y1}) this position is not in bounds of the board.");
                 return false;
             }
 
             if (!CheckBounds(x2, y2))
             {
-                Debug.LogError($"({x2}, {y2}) this position is not in bounds of the grid.");
+                Debug.LogError($"({x2}, {y2}) this position is not in bounds of the board.");
                 return false;
             }
 
