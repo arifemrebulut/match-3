@@ -21,7 +21,7 @@ namespace Agave
             Instance = this;
         }
 
-        public static void Register<TService>(TService service, bool safe = true) where TService : IService, new()
+        public void Register<TService>(TService service, bool safe = true) where TService : IService, new()
         {
             var serviceType = typeof(TService);
             if (IsRegistered<TService>() && safe)
@@ -32,7 +32,7 @@ namespace Agave
             Services[typeof(TService)] = service;
         }
 
-        public static TService Get<TService>() where TService : IService, new()
+        public TService Get<TService>() where TService : IService, new()
         {
             var serviceType = typeof(TService);
             if (IsRegistered<TService>())
@@ -43,12 +43,12 @@ namespace Agave
             throw new ServiceLocatorException($"{serviceType.Name} hasn't been registered.");
         }
 
-        private static bool IsRegistered(Type t)
+        private bool IsRegistered(Type t)
         {
             return Services.ContainsKey(t);
         }
 
-        private static bool IsRegistered<TService>()
+        private bool IsRegistered<TService>()
         {
             return IsRegistered(typeof(TService));
         }

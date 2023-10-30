@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Agave
 {
-    public class DropBoard : BoardSystem2D<Drop>
+    public class DropBoard : BoardSystem2D<Drop>, IService
     {
         [SerializeField] private GameObject tileBackground;
 

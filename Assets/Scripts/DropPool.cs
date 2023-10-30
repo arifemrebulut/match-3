@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Agave
 {
-    public class DropPool : ObjectPool<Drop>
+    public class DropPool : ObjectPool<Drop>, IService
     {
         [SerializeField] private List<DropTypeSO> dropsTypes;
 
