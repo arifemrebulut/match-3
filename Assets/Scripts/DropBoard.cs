@@ -17,6 +17,8 @@ namespace Agave
         {
             base.CreateBoard(dimensions);
 
+            _dropPool = ServiceLocator.Get<DropPool>();
+
             CreateTileBackgrounds();
             StartCoroutine(PopulateBoard());
         }

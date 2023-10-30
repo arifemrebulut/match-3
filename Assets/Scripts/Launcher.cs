@@ -14,15 +14,15 @@ namespace Agave
 
         void Start()
         {
+            RegisterServices();
+            
             var poolCapacity = (boardDimensions.x * boardDimensions.y) * 2;
         
             objectPool.InitializePool(poolCapacity);
             board.InitializeBoard(boardDimensions);
-            
-            InitializeServices();
         }
 
-        void InitializeServices()
+        void RegisterServices()
         {
             ServiceLocator.Register(objectPool);
             ServiceLocator.Register(board);

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: drop board created">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DropBoard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DropPool.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locator/ServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locator/ServiceLocator.cs" afterDir="false" />
-    </list>
+    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="fix: camera adjustments" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +22,10 @@
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/Launcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Resources/DOTweenSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Scenes/Main.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Drop.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Scripts/Drop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Scripts/DropBoard.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropTypeSO.cs" root0="FORCE_HIGHLIGHTING" />
@@ -128,7 +124,7 @@
       <workItem from="1698500567023" duration="20841000" />
       <workItem from="1698604827834" duration="10386000" />
       <workItem from="1698670132209" duration="4729000" />
-      <workItem from="1698675789764" duration="858000" />
+      <workItem from="1698675789764" duration="1218000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial project created">
       <option name="closed" value="true" />
@@ -266,7 +262,31 @@
       <option name="project" value="LOCAL" />
       <updated>1698676135865</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: launcher created">
+      <option name="closed" value="true" />
+      <created>1698676734946</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1698676734946</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fix: chang locator mono to static">
+      <option name="closed" value="true" />
+      <created>1698676897201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698676897201</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix: camera adjustments">
+      <option name="closed" value="true" />
+      <created>1698677002196</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698677002196</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +325,9 @@
     <MESSAGE value="feat: drop pool created" />
     <MESSAGE value="feat: dotween package imported" />
     <MESSAGE value="feat: drop board created" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: drop board created" />
+    <MESSAGE value="feat: launcher created" />
+    <MESSAGE value="fix: chang locator mono to static" />
+    <MESSAGE value="fix: camera adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: camera adjustments" />
   </component>
 </project>
