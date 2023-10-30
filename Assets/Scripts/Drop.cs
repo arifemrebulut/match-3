@@ -7,6 +7,7 @@ namespace Agave
         public bool IsMoving { get; set; }
         
         private SpriteRenderer _spriteRenderer;
+        private SwapController _swapController;
         
         private DropTypeSO _type;
         
@@ -26,9 +27,29 @@ namespace Agave
             }
         }
 
+        private void Start()
+        {
+            _swapController = ServiceLocator.Get<SwapController>();
+        }
+
         public void SetPosition(int x, int y)
         {
             transform.position = new Vector2(x, y);
+        }
+        
+        private void OnMouseDown()
+        {
+            _swapController.SelectFirst(this);
+        }
+
+        private void OnMouseUp()
+        {
+            _swapController.SelectFirst(null);
+        }
+
+        private void OnMouseEnter()
+        {
+            _swapController.SelectSecond(this);
         }
     }
 }
