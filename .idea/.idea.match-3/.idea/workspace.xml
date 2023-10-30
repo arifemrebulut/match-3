@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: sprite atlas created for batch optimization">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BoardSystem2D.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BoardSystem2D.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: generic board system created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +16,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/GridSystem2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoardSystem2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/ProjectSettings/EditorSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -114,7 +111,7 @@
       <workItem from="1698351534635" duration="9160000" />
       <workItem from="1698500567023" duration="20841000" />
       <workItem from="1698604827834" duration="10386000" />
-      <workItem from="1698670132209" duration="1181000" />
+      <workItem from="1698670132209" duration="1523000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial project created">
       <option name="closed" value="true" />
@@ -156,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698670995421</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: generic board system created">
+      <option name="closed" value="true" />
+      <created>1698671355208</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698671355208</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +188,7 @@
     <MESSAGE value="chore: scene renamed" />
     <MESSAGE value="chore: sprites imported" />
     <MESSAGE value="feat: sprite atlas created for batch optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: sprite atlas created for batch optimization" />
+    <MESSAGE value="feat: generic board system created" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: generic board system created" />
   </component>
 </project>
