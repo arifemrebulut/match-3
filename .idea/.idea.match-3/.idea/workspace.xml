@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: generic object pool implemented" />
+    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: drop object created" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +14,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/Drop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/DropDataSO.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/DropGrid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/GridSystem2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoardSystem2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Drop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropTypeSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/ProjectSettings/EditorSettings.asset" root0="SKIP_HIGHLIGHTING" />
@@ -113,7 +117,7 @@
       <workItem from="1698351534635" duration="9160000" />
       <workItem from="1698500567023" duration="20841000" />
       <workItem from="1698604827834" duration="10386000" />
-      <workItem from="1698670132209" duration="3030000" />
+      <workItem from="1698670132209" duration="3454000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial project created">
       <option name="closed" value="true" />
@@ -187,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698673451371</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: drop type scriptable object created for representing different type of drop">
+      <option name="closed" value="true" />
+      <created>1698674031879</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1698674031879</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: drop object created">
+      <option name="closed" value="true" />
+      <created>1698674043497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698674043497</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +238,8 @@
     <MESSAGE value="feat: simple service locator implementation" />
     <MESSAGE value="chore: renaming" />
     <MESSAGE value="feat: generic object pool implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: generic object pool implemented" />
+    <MESSAGE value="feat: drop type scriptable object created for representing different type of drop" />
+    <MESSAGE value="feat: drop object created" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: drop object created" />
   </component>
 </project>
