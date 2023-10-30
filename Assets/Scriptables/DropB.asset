@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca14fda0447b642708737a3c006d6d90, type: 3}
+  m_Name: DropB
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 5e7c8ae4a481941a0a8159883c2928a1, type: 3}
