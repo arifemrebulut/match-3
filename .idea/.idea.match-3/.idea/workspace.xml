@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: drop object created" />
+    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="fix: sprites pixels per unit changed">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardSystem2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoardSystem2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Drop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Drop.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +25,14 @@
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/Drop.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/DropDataSO.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/DropGrid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/DropPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/GridSystem2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BoardSystem2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Art/Sprites/dropB.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Scenes/Main.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Drop.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropTypeSO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/ProjectSettings/EditorSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -117,7 +127,7 @@
       <workItem from="1698351534635" duration="9160000" />
       <workItem from="1698500567023" duration="20841000" />
       <workItem from="1698604827834" duration="10386000" />
-      <workItem from="1698670132209" duration="3454000" />
+      <workItem from="1698670132209" duration="4177000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial project created">
       <option name="closed" value="true" />
@@ -207,7 +217,31 @@
       <option name="project" value="LOCAL" />
       <updated>1698674043497</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: drop prefab created">
+      <option name="closed" value="true" />
+      <created>1698674144124</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1698674144124</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: tile prefab created">
+      <option name="closed" value="true" />
+      <created>1698674200363</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698674200363</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: sprites pixels per unit changed">
+      <option name="closed" value="true" />
+      <created>1698674248012</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698674248012</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +274,9 @@
     <MESSAGE value="feat: generic object pool implemented" />
     <MESSAGE value="feat: drop type scriptable object created for representing different type of drop" />
     <MESSAGE value="feat: drop object created" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: drop object created" />
+    <MESSAGE value="feat: drop prefab created" />
+    <MESSAGE value="feat: tile prefab created" />
+    <MESSAGE value="fix: sprites pixels per unit changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: sprites pixels per unit changed" />
   </component>
 </project>
