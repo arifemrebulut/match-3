@@ -6,9 +6,9 @@ namespace Agave
 {
     public class ServiceLocator : MonoBehaviour
     {
-        private static readonly Dictionary<Type, object> Services = new Dictionary<Type, object>();
+        private static readonly Dictionary<Type, object> Services = new ();
 
-        public static void Register<TService>(TService service, bool safe = true) where TService : IService, new()
+        public static void Register<TService>(TService service, bool safe = true) where TService : IService
         {
             var serviceType = typeof(TService);
             if (IsRegistered<TService>() && safe)
@@ -19,7 +19,7 @@ namespace Agave
             Services[typeof(TService)] = service;
         }
 
-        public static TService Get<TService>() where TService : IService, new()
+        public static TService Get<TService>() where TService : IService
         {
             var serviceType = typeof(TService);
             if (IsRegistered<TService>())
@@ -43,8 +43,6 @@ namespace Agave
 
     public class ServiceLocatorException : Exception
     {
-        public ServiceLocatorException(string message) : base(message)
-        {
-        }
+        public ServiceLocatorException(string message) : base(message) { }
     }
 }

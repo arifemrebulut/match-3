@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="fix: camera adjustments" />
+    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: register services and created board">
+      <change afterPath="$PROJECT_DIR$/Assets/SwapController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SwapController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locator/ServiceLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locator/ServiceLocator.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/GridSystem2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/Launcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../match-3-ptest/Assets/Scripts/SwapController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Resources/DOTweenSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Scenes/Main.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Drop.cs" root0="FORCE_HIGHLIGHTING" />
@@ -30,6 +38,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DropTypeSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Scripts/Locator/ServiceLocator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SwapController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -124,7 +134,7 @@
       <workItem from="1698500567023" duration="20841000" />
       <workItem from="1698604827834" duration="10386000" />
       <workItem from="1698670132209" duration="4729000" />
-      <workItem from="1698675789764" duration="1218000" />
+      <workItem from="1698675789764" duration="2820000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial project created">
       <option name="closed" value="true" />
@@ -286,7 +296,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698677002196</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: register services and created board">
+      <option name="closed" value="true" />
+      <created>1698677157901</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698677157901</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +346,7 @@
     <MESSAGE value="feat: launcher created" />
     <MESSAGE value="fix: chang locator mono to static" />
     <MESSAGE value="fix: camera adjustments" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: camera adjustments" />
+    <MESSAGE value="feat: register services and created board" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: register services and created board" />
   </component>
 </project>

@@ -5,27 +5,39 @@ namespace Agave
     public class Launcher : MonoBehaviour
     {
         [SerializeField] private Vector2Int boardDimensions;
-    
-        [Space]
-        [SerializeField] private DropPool objectPool;
+        
+        [Header("Services")]
+        [SerializeField] private DropPool pool;
         [SerializeField] private DropBoard board;
-
+        [SerializeField] private SwapController swapController;
+        
         private ServiceLocator _locator;
 
-        void Start()
+        private void Awake()
         {
             RegisterServices();
             
+            InitializePool();
+            InitializeBoard();
+        }
+
+        private void InitializePool()
+        {
             var poolCapacity = (boardDimensions.x * boardDimensions.y) * 2;
         
-            objectPool.InitializePool(poolCapacity);
+            pool.InitializePool(poolCapacity);
+        }
+
+        private void InitializeBoard()
+        {
             board.InitializeBoard(boardDimensions);
         }
 
-        void RegisterServices()
+        private void RegisterServices()
         {
-            ServiceLocator.Register(objectPool);
+            ServiceLocator.Register(pool);
             ServiceLocator.Register(board);
+            ServiceLocator.Register(swapController);
         }
     }
 }
