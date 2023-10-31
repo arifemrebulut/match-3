@@ -7,6 +7,7 @@ namespace Agave
 {
     public class DropBoard : BoardSystem2D<Drop>, IService
     {
+        [SerializeField] private BoardDataSO boardData;
         [SerializeField] private GameObject tileBackground;
 
         private DropPool _dropPool;
