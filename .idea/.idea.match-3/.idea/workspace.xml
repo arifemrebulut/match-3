@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: read spawner data while repopulating tiles after match">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/BoardDataEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/BoardDataEditorWindow.cs" afterDir="false" />
+    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: back button added to board data window">
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/BoardData/BoardData_786.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/BoardData/BoardData_786.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/BaseClasses.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/BaseClasses/BoardSystem2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/BaseClasses/BoardSystem2D.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/BaseClasses/ObjectPool.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/BaseClasses/ObjectPool.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/Locator.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/Locator/IService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/Locator/IService.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/Locator/ServiceLocator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/Locator/ServiceLocator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SwapController.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +41,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/BoardDataEditorWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Scripts/Editor/BoardDataEditorWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Editor/DropBoardEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SwapController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/Scripts/Runtime/Drop.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/arifemrebulut/dev/gamedev/Agave/match-3/Assets/SwapController.cs.meta" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -125,7 +138,7 @@
       <workItem from="1698670132209" duration="4729000" />
       <workItem from="1698675789764" duration="3688000" />
       <workItem from="1698699437667" duration="4089000" />
-      <workItem from="1698703608673" duration="17214000" />
+      <workItem from="1698703608673" duration="18343000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial project created">
       <option name="closed" value="true" />
@@ -335,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698721185755</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat: back button added to board data window">
+      <option name="closed" value="true" />
+      <created>1698721403690</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1698721403690</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +378,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="chore: unnecessary packages removed and other packages are updated" />
     <MESSAGE value="chore: scene renamed" />
     <MESSAGE value="chore: sprites imported" />
     <MESSAGE value="feat: sprite atlas created for batch optimization" />
@@ -382,6 +402,7 @@
     <MESSAGE value="feat: custom window created for board data creation" />
     <MESSAGE value="feat: board data generation with custom tool" />
     <MESSAGE value="feat: read spawner data while repopulating tiles after match" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: read spawner data while repopulating tiles after match" />
+    <MESSAGE value="feat: back button added to board data window" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: back button added to board data window" />
   </component>
 </project>
