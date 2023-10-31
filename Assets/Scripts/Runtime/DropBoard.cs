@@ -14,9 +14,9 @@ namespace Agave
 
         public List<Drop> LastMatchedDrops { get; private set; }
 
-        public void InitializeBoard(Vector2Int dimensions)
+        public void InitializeBoard()
         {
-            base.CreateBoard(dimensions);
+            base.CreateBoard(boardData.dimensions);
 
             _dropPool = ServiceLocator.Get<DropPool>();
 

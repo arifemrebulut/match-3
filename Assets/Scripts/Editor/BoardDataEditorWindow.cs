@@ -1,3 +1,4 @@
+using System;
 using UnityEditor;
 using UnityEngine;
 
@@ -36,10 +37,12 @@ namespace Agave
             var labelStyle = new GUIStyle
             {
                 alignment = TextAnchor.MiddleCenter,
-                fontSize = 18
+                fontSize = 18,
+                normal =
+                {
+                    textColor = Color.white
+                }
             };
-            
-            labelStyle.normal.textColor = Color.white;
 
             EditorGUILayout.LabelField("Board Dimensions", labelStyle);
             
@@ -95,11 +98,13 @@ namespace Agave
             var labelStyle = new GUIStyle
             {
                 alignment = TextAnchor.MiddleCenter,
-                fontSize = 14
+                fontSize = 14,
+                normal =
+                {
+                    textColor = Color.white
+                }
             };
-            
-            labelStyle.normal.textColor = Color.white;
-            
+
             GUILayout.Space(16);
             GUILayout.Label("Activate the spawner of the desired columns with toggles.", labelStyle);
             
@@ -120,7 +125,7 @@ namespace Agave
                     };
                         
                     GUILayout.BeginArea(toggleRect);
-                    
+
                     _spawnerValues[i] = EditorGUILayout.Toggle("", _spawnerValues[i]);
                     
                     GUILayout.EndArea();
@@ -153,14 +158,28 @@ namespace Agave
             
             if (GUILayout.Button("Save Board Data", GUILayout.Width(position.width / 2f)))
             {
-                Debug.Log("Saved!");
-
+                CreateAndEditBoardDataAsset();
             }
             
             GUILayout.FlexibleSpace();
             GUILayout.EndHorizontal();
             
             GUILayout.EndArea();
+        }
+        
+        private void CreateAndEditBoardDataAsset()
+        {
+            BoardDataSO boardData = CreateInstance<BoardDataSO>();
+            
+            Vector2Int dimensions = new Vector2Int((int)_dimensions.x, (int)_dimensions.y);
+            boardData.dimensions = dimensions;
+            boardData.spawnerColumnIndexes = _spawnerValues;
+
+            var uniqueSuffix = Guid.NewGuid().ToString().Substring(0,3);
+            string assetPath = $"Assets/Scriptables/BoardData/BoardData_{uniqueSuffix}.asset";
+            AssetDatabase.CreateAsset(boardData, assetPath);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
         }
     }
 }

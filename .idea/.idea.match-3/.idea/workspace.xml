@@ -4,36 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="">
+    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: custom window created for board data creation">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/DropB.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/DropB.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/DropG.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/DropG.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/DropR.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/DropR.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/DropY.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/DropY.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseClasses.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseClasses/BoardSystem2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseClasses/BoardSystem2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseClasses/ObjectPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseClasses/ObjectPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Drop.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Drop.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropBoard.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropBoard.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropTypeSO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DropTypeSO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Launcher.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locator/IService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locator/IService.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locator/ServiceLocator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locator/ServiceLocator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/BoardDataEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/BoardDataEditorWindow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/BoardDataSO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Runtime/BoardDataSO.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/DropBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Runtime/DropBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/Launcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Runtime/Launcher.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +129,7 @@
       <workItem from="1698670132209" duration="4729000" />
       <workItem from="1698675789764" duration="3688000" />
       <workItem from="1698699437667" duration="4089000" />
-      <workItem from="1698703608673" duration="12589000" />
+      <workItem from="1698703608673" duration="16254000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial project created">
       <option name="closed" value="true" />
@@ -338,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698678882252</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: custom window created for board data creation">
+      <option name="closed" value="true" />
+      <created>1698717007083</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1698717007083</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +368,7 @@
     <MESSAGE value="feat: register services and created board" />
     <MESSAGE value="feat: swap controller created" />
     <MESSAGE value="feat: methods for input reading are added to drop class" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: methods for input reading are added to drop class" />
+    <MESSAGE value="feat: custom window created for board data creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: custom window created for board data creation" />
   </component>
 </project>
