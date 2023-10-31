@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using DG.Tweening;
 using UnityEngine;
 
@@ -24,13 +25,18 @@ namespace Agave
             StartCoroutine(PopulateBoard());
         }
 
-        private IEnumerator PopulateBoard(bool allowMatches = false)
+        private IEnumerator PopulateBoard(bool allowMatches = false, bool checkForSpawners = false)
         {
             for (int y = 0; y < Dimensions.y; y++)
             {
                 for (int x = 0; x < Dimensions.x; x++)
                 {
                     if (!IsTileEmpty(x, y))
+                    {
+                        continue;
+                    }
+
+                    if (checkForSpawners && !boardData.spawnerColumnIndexes[x])
                     {
                         continue;
                     }
@@ -73,7 +79,7 @@ namespace Agave
 
         private void RepopulateEmptyTiles()
         {
-            StartCoroutine(PopulateBoard(true));
+            StartCoroutine(PopulateBoard(true, true));
         }
 
         public bool IsPartOfMatch(Drop drop)

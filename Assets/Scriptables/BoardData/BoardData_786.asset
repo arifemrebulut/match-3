@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be954f605f18d4e1c8156669a32939c4, type: 3}
-  m_Name: BoardData_a15
+  m_Name: BoardData_786
   m_EditorClassIdentifier: 
-  dimensions: {x: 5, y: 5}
-  spawnerColumnIndexes: 0101000000
+  dimensions: {x: 8, y: 8}
+  spawnerColumnIndexes: 0101010100000000

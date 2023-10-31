@@ -70,7 +70,8 @@ namespace Agave
             GUILayout.BeginHorizontal();
             GUILayout.FlexibleSpace();
             
-            if (GUILayout.Button("Create Board", GUILayout.Width(position.width / 2f)))
+            if (GUILayout.Button("Create Board", GUILayout.Width(position.width / 2f))
+                && _dimensions.x != 0 && _dimensions.y != 0)
             {
                 _drawBoard = true;
             }
@@ -159,6 +160,7 @@ namespace Agave
             if (GUILayout.Button("Save Board Data", GUILayout.Width(position.width / 2f)))
             {
                 CreateAndEditBoardDataAsset();
+                Close();
             }
             
             GUILayout.FlexibleSpace();
