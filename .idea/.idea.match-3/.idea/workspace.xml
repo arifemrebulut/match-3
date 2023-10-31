@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: board data generation with custom tool">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.match-3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/BoardData/BoardData_a15.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/BoardData/BoardData_a15.asset.meta" beforeDir="false" />
+    <list default="true" id="b96c340f-1549-47fc-9fa9-caf86a9f44e8" name="Changes" comment="feat: read spawner data while repopulating tiles after match">
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Editor/BoardDataEditorWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Editor/BoardDataEditorWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Runtime/DropBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Runtime/DropBoard.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +125,7 @@
       <workItem from="1698670132209" duration="4729000" />
       <workItem from="1698675789764" duration="3688000" />
       <workItem from="1698699437667" duration="4089000" />
-      <workItem from="1698703608673" duration="16883000" />
+      <workItem from="1698703608673" duration="17214000" />
     </task>
     <task id="LOCAL-00001" summary="chore: initial project created">
       <option name="closed" value="true" />
@@ -332,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698720539869</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat: read spawner data while repopulating tiles after match">
+      <option name="closed" value="true" />
+      <created>1698721185755</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1698721185755</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +357,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="chore: initial project created" />
     <MESSAGE value="chore: unnecessary packages removed and other packages are updated" />
     <MESSAGE value="chore: scene renamed" />
     <MESSAGE value="chore: sprites imported" />
@@ -379,6 +381,7 @@
     <MESSAGE value="feat: methods for input reading are added to drop class" />
     <MESSAGE value="feat: custom window created for board data creation" />
     <MESSAGE value="feat: board data generation with custom tool" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: board data generation with custom tool" />
+    <MESSAGE value="feat: read spawner data while repopulating tiles after match" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: read spawner data while repopulating tiles after match" />
   </component>
 </project>

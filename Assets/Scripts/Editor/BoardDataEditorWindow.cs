@@ -15,6 +15,7 @@ namespace Agave
         {
             if (_drawBoard)
             {
+                DrawBackButton();
                 DrawBoard(36f, 1f, Color.gray);
             }
             else
@@ -27,7 +28,7 @@ namespace Agave
         {
             DrawLabel();
             DrawDimensionsHorizontalGroup();
-            DrawButton();
+            DrawCreateButton();
         }
 
         private void DrawLabel()
@@ -49,6 +50,22 @@ namespace Agave
             EditorGUILayout.Space();
         }
 
+        private void DrawBackButton()
+        {
+            EditorGUILayout.Space(8);
+            
+            GUILayout.BeginHorizontal();
+            GUILayout.FlexibleSpace();
+            
+            if (GUILayout.Button("Back", GUILayout.Width(position.width / 3f)))
+            {
+                _drawBoard = false;
+            }
+            
+            GUILayout.FlexibleSpace();
+            GUILayout.EndHorizontal();
+        }
+
         private void DrawDimensionsHorizontalGroup()
         {
             EditorGUILayout.BeginHorizontal();
@@ -63,7 +80,7 @@ namespace Agave
             EditorGUILayout.EndHorizontal();
         }
 
-        private void DrawButton()
+        private void DrawCreateButton()
         {
             EditorGUILayout.Space(8);
             
