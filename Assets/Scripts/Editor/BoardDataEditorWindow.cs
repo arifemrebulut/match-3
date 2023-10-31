@@ -13,6 +13,8 @@ namespace Agave
          
         private void OnGUI()
         {
+            minSize = new Vector2(512, 512);
+            
             if (_drawBoard)
             {
                 DrawBackButton();

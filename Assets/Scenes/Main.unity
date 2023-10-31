@@ -149,7 +149,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 15525090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 457412c69ef7b42fa9d41b0cb1e3b495, type: 3}
+  m_Script: {fileID: 11500000, guid: 7415bfb02633f4a2c89693e279c7e51e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &15525092
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 674de284e13344e8587b4e360157329d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardData: {fileID: 11400000, guid: 8512625f5c4ff42379efdc36c49f4547, type: 2}
+  boardData: {fileID: 11400000, guid: 96286ef2ee6634802bb151fb5a1a6ec1, type: 2}
   tileBackground: {fileID: 3887610040456009582, guid: 6235741347e954aadb1b4edc3a9e2ade, type: 3}
 --- !u!4 &1260601519
 Transform:
